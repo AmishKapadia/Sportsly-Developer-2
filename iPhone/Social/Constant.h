@@ -197,6 +197,7 @@
 #define IMAGELINKTHUMB @"http://www.sportsly.co/uploads/user_cover_photos/thumb/"
 #define SINGLEREQUESTLINK @"http://www.sportsly.co/wscontroller/AddDevicetoken"
 #define LINKFORREGISTER @"http://www.sportsly.co/wscontroller/registration"
+#define LINKFORVERIFY @"http://www.sportsly.co/wscontroller/ResendActivationEmail"
 #define LINKFORLOGIN @"http://www.sportsly.co/wscontroller/login"
 
 #define POSTIMAGELINK @"http://www.sportsly.co/uploads/post/post_image/"
@@ -344,6 +345,7 @@
 #define ISFIRSTTIMEUSER @"IsFIRSTTIMEUSER"
 #define ISLOGIN @"IsLogin"
 #define SIGNUP @"SignUp"
+#define VERIFY @"Verify"
 #define LOGIN @"Login"
 #define LOGOUT @"LogOut"
 #define ADDEVENT @"ADDEVENT"

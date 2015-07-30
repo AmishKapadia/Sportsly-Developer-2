@@ -29,7 +29,7 @@
 		<string>icon_152.png</string>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>mygamewall.live.com</string>
+	<string>com.dev.gamewall</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

@@ -212,6 +212,17 @@
             }
             
         }
+        else if ([reqId isEqualToString:VERIFY])
+        {
+            
+            
+            if ([cManager requester])
+            {
+                ConnectionManager* aR = (ConnectionManager*)cManager;
+                [aR.requester notifyRequesterWithData:d:aR];
+            }
+            
+        }
         else if ([reqId isEqualToString:LOGIN])
         {
             

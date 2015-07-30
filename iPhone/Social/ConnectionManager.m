@@ -322,6 +322,10 @@
     {
         return LINKFORREGISTER;
     }
+    else if ([requestSingleId isEqualToString:VERIFY])
+    {
+        return LINKFORVERIFY;
+    }
     else if ([requestSingleId isEqualToString:FEEDBACK])
     {
         return FEEDBACKLINK;

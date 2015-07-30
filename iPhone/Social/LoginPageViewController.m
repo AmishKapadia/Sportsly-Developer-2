@@ -1205,4 +1205,10 @@
     [self.navigationController pushViewController:fp animated:YES];
 }
 
+- (IBAction)viewTapped:(id)sender
+{
+    [self.emailTxt resignFirstResponder];
+    [self.passwrdTxt resignFirstResponder];
+}
+
 @end

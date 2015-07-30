@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847C32BF1B6993CB00FC9A70 /* VerificationViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847C32BB1B6993CB00FC9A70 /* VerificationViewController_iPad.xib */; };
+		847C32C01B6993CB00FC9A70 /* VerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C32BD1B6993CB00FC9A70 /* VerificationViewController.m */; };
+		847C32C11B6993CB00FC9A70 /* VerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847C32BE1B6993CB00FC9A70 /* VerificationViewController.xib */; };
+		84C567B61B68C7A300989983 /* Football_Scoccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C567B51B68C7A300989983 /* Football_Scoccer.png */; };
+		84C567BB1B68CBCD00989983 /* BUY_SELL.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C567B71B68CBCD00989983 /* BUY_SELL.png */; };
+		84C567BC1B68CBCD00989983 /* BUY_SELL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C567B81B68CBCD00989983 /* BUY_SELL@2x.png */; };
+		84C567BD1B68CBCD00989983 /* LEAGUE_CLUB.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C567B91B68CBCD00989983 /* LEAGUE_CLUB.png */; };
+		84C567BE1B68CBCD00989983 /* LEAGUE_CLUB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C567BA1B68CBCD00989983 /* LEAGUE_CLUB@2x.png */; };
 		CE003BD01869754A008414D8 /* EventEditViewController_Private.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE003BCF1869754A008414D8 /* EventEditViewController_Private.xib */; };
 		CE0156F01A0CB7950039BCD9 /* invite_player_plus_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0156EF1A0CB7950039BCD9 /* invite_player_plus_ipad@2x.png */; };
 		CE017FDE19FF91FC003790FC /* Albums_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE017FD919FF91FC003790FC /* Albums_ipad@2x.png */; };
@@ -396,10 +404,6 @@
 		CE58F08D19FE7E600024F875 /* noplayer_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58F08C19FE7E600024F875 /* noplayer_iPad@2x.png */; };
 		CE58F08F19FE808F0024F875 /* add_player_plus_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58F08E19FE808F0024F875 /* add_player_plus_iPad@2x.png */; };
 		CE58F09619FE84A30024F875 /* PrimaryMemeberViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE58F09519FE84A30024F875 /* PrimaryMemeberViewController_iPad.xib */; };
-		CE59497D184F247C0058F368 /* BUY:SELL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE594979184F24790058F368 /* BUY:SELL@2x.png */; };
-		CE59497E184F247C0058F368 /* BUY:SELL.png in Resources */ = {isa = PBXBuildFile; fileRef = CE59497A184F247A0058F368 /* BUY:SELL.png */; };
-		CE59497F184F247C0058F368 /* LEAGUE:CLUB@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE59497B184F247B0058F368 /* LEAGUE:CLUB@2x.png */; };
-		CE594980184F247C0058F368 /* LEAGUE:CLUB.png in Resources */ = {isa = PBXBuildFile; fileRef = CE59497C184F247B0058F368 /* LEAGUE:CLUB.png */; };
 		CE594983184F3CAC0058F368 /* sign in btnorange.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE594981184F3C9C0058F368 /* sign in btnorange.PNG */; };
 		CE594984184F3CAC0058F368 /* sign up btnorange.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CE594982184F3CA30058F368 /* sign up btnorange.PNG */; };
 		CE5966B917F4481A00C1FA5B /* PushByInvitesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5966B617F4481700C1FA5B /* PushByInvitesVC.xib */; };
@@ -1090,7 +1094,6 @@
 		E8AF66641966F78B0002CE61 /* Badminton.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF66551966F78B0002CE61 /* Badminton.png */; };
 		E8AF66651966F78B0002CE61 /* Bicycling.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF66561966F78B0002CE61 /* Bicycling.png */; };
 		E8AF66661966F78B0002CE61 /* Fishing.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF66571966F78B0002CE61 /* Fishing.png */; };
-		E8AF66671966F78B0002CE61 /* Football:Scoccer.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF66581966F78B0002CE61 /* Football:Scoccer.png */; };
 		E8AF66681966F78B0002CE61 /* Ice hockey.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF66591966F78B0002CE61 /* Ice hockey.png */; };
 		E8AF66691966F78B0002CE61 /* Kayaking.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF665A1966F78B0002CE61 /* Kayaking.png */; };
 		E8AF666A1966F78B0002CE61 /* Picnic.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AF665B1966F78B0002CE61 /* Picnic.png */; };
@@ -1199,6 +1202,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847C32BB1B6993CB00FC9A70 /* VerificationViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationViewController_iPad.xib; sourceTree = "<group>"; };
+		847C32BC1B6993CB00FC9A70 /* VerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationViewController.h; sourceTree = "<group>"; };
+		847C32BD1B6993CB00FC9A70 /* VerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationViewController.m; sourceTree = "<group>"; };
+		847C32BE1B6993CB00FC9A70 /* VerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationViewController.xib; sourceTree = "<group>"; };
+		84C567B51B68C7A300989983 /* Football_Scoccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Football_Scoccer.png; sourceTree = "<group>"; };
+		84C567B71B68CBCD00989983 /* BUY_SELL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUY_SELL.png; sourceTree = "<group>"; };
+		84C567B81B68CBCD00989983 /* BUY_SELL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BUY_SELL@2x.png"; sourceTree = "<group>"; };
+		84C567B91B68CBCD00989983 /* LEAGUE_CLUB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LEAGUE_CLUB.png; sourceTree = "<group>"; };
+		84C567BA1B68CBCD00989983 /* LEAGUE_CLUB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LEAGUE_CLUB@2x.png"; sourceTree = "<group>"; };
 		CE003BCF1869754A008414D8 /* EventEditViewController_Private.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventEditViewController_Private.xib; sourceTree = "<group>"; };
 		CE0156EF1A0CB7950039BCD9 /* invite_player_plus_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invite_player_plus_ipad@2x.png"; sourceTree = "<group>"; };
 		CE017FD919FF91FC003790FC /* Albums_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Albums_ipad@2x.png"; sourceTree = "<group>"; };
@@ -1657,10 +1669,6 @@
 		CE58F08C19FE7E600024F875 /* noplayer_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noplayer_iPad@2x.png"; sourceTree = "<group>"; };
 		CE58F08E19FE808F0024F875 /* add_player_plus_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_player_plus_iPad@2x.png"; sourceTree = "<group>"; };
 		CE58F09519FE84A30024F875 /* PrimaryMemeberViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimaryMemeberViewController_iPad.xib; sourceTree = "<group>"; };
-		CE594979184F24790058F368 /* BUY:SELL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BUY:SELL@2x.png"; sourceTree = "<group>"; };
-		CE59497A184F247A0058F368 /* BUY:SELL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BUY:SELL.png"; sourceTree = "<group>"; };
-		CE59497B184F247B0058F368 /* LEAGUE:CLUB@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LEAGUE:CLUB@2x.png"; sourceTree = "<group>"; };
-		CE59497C184F247B0058F368 /* LEAGUE:CLUB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LEAGUE:CLUB.png"; sourceTree = "<group>"; };
 		CE594981184F3C9C0058F368 /* sign in btnorange.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign in btnorange.PNG"; sourceTree = "<group>"; };
 		CE594982184F3CA30058F368 /* sign up btnorange.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign up btnorange.PNG"; sourceTree = "<group>"; };
 		CE5966B617F4481700C1FA5B /* PushByInvitesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushByInvitesVC.xib; sourceTree = "<group>"; };
@@ -2485,7 +2493,6 @@
 		E8AF66551966F78B0002CE61 /* Badminton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Badminton.png; sourceTree = "<group>"; };
 		E8AF66561966F78B0002CE61 /* Bicycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bicycling.png; sourceTree = "<group>"; };
 		E8AF66571966F78B0002CE61 /* Fishing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fishing.png; sourceTree = "<group>"; };
-		E8AF66581966F78B0002CE61 /* Football:Scoccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Football:Scoccer.png"; sourceTree = "<group>"; };
 		E8AF66591966F78B0002CE61 /* Ice hockey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ice hockey.png"; sourceTree = "<group>"; };
 		E8AF665A1966F78B0002CE61 /* Kayaking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kayaking.png; sourceTree = "<group>"; };
 		E8AF665B1966F78B0002CE61 /* Picnic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picnic.png; sourceTree = "<group>"; };
@@ -3145,6 +3152,10 @@
 		CE487B6317D5E2A200357AF8 /* Login&Register */ = {
 			isa = PBXGroup;
 			children = (
+				847C32BB1B6993CB00FC9A70 /* VerificationViewController_iPad.xib */,
+				847C32BC1B6993CB00FC9A70 /* VerificationViewController.h */,
+				847C32BD1B6993CB00FC9A70 /* VerificationViewController.m */,
+				847C32BE1B6993CB00FC9A70 /* VerificationViewController.xib */,
 				CE372C0A1B55362400DF3A6B /* FirstLoginViewController.h */,
 				CE372C0B1B55362400DF3A6B /* FirstLoginViewController.m */,
 				CE372C0C1B55362400DF3A6B /* FirstLoginViewController.xib */,
@@ -3439,6 +3450,10 @@
 		CE53F9B418434FAA00704B90 /* New Current Images */ = {
 			isa = PBXGroup;
 			children = (
+				84C567B71B68CBCD00989983 /* BUY_SELL.png */,
+				84C567B81B68CBCD00989983 /* BUY_SELL@2x.png */,
+				84C567B91B68CBCD00989983 /* LEAGUE_CLUB.png */,
+				84C567BA1B68CBCD00989983 /* LEAGUE_CLUB@2x.png */,
 				CEE645D9185B38C500CE9281 /* default image.png */,
 				CEE645DA185B38C500CE9281 /* default video.png */,
 				CECA9DB0185A0F1C0044A49A /* red-tickselect.png */,
@@ -3453,10 +3468,6 @@
 				CE6CBA3918462A2000FBD086 /* box with tick mark.png */,
 				CE6CBA3C18462A2000FBD086 /* transparent box.png */,
 				CE6CBA34184602DC00FBD086 /* redbar.jpg */,
-				CE594979184F24790058F368 /* BUY:SELL@2x.png */,
-				CE59497A184F247A0058F368 /* BUY:SELL.png */,
-				CE59497B184F247B0058F368 /* LEAGUE:CLUB@2x.png */,
-				CE59497C184F247B0058F368 /* LEAGUE:CLUB.png */,
 				CEE1A7B318448E25003948F9 /* TRAINING VIDEOS@2x.png */,
 				CEE1A7B918448FC2003948F9 /* TRAINING VIDEOS.png */,
 				CE3387891843A63C0064475F /* comments.png */,
@@ -5022,11 +5033,11 @@
 		E8B038FB1906C4AD00CDACDB /* SportImages */ = {
 			isa = PBXGroup;
 			children = (
+				84C567B51B68C7A300989983 /* Football_Scoccer.png */,
 				E8AF66541966F78B0002CE61 /* American Football.png */,
 				E8AF66551966F78B0002CE61 /* Badminton.png */,
 				E8AF66561966F78B0002CE61 /* Bicycling.png */,
 				E8AF66571966F78B0002CE61 /* Fishing.png */,
-				E8AF66581966F78B0002CE61 /* Football:Scoccer.png */,
 				E8AF66591966F78B0002CE61 /* Ice hockey.png */,
 				E8AF665A1966F78B0002CE61 /* Kayaking.png */,
 				E8AF665B1966F78B0002CE61 /* Picnic.png */,
@@ -5225,6 +5236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C567B61B68C7A300989983 /* Football_Scoccer.png in Resources */,
 				E829E57E18EBED40002FE0C4 /* 8.png in Resources */,
 				E864891A18FD548B00DA933F /* add_team_left_bar.png in Resources */,
 				E86488FA18FD0BE300DA933F /* no_message_icon.png in Resources */,
@@ -5463,6 +5475,7 @@
 				E86D0EEB18FC17EC00FC86CA /* avatarlogin.png in Resources */,
 				E84AA85218F68D7900AB1B3E /* backbtncyan.png in Resources */,
 				CE2B4C681A0223F1005822F6 /* photo1_ipad.png in Resources */,
+				84C567BE1B68CBCD00989983 /* LEAGUE_CLUB@2x.png in Resources */,
 				E86D0A3C18E9999500109123 /* Settings.png in Resources */,
 				CEC9D7D91A9CA9FD00E58783 /* create_team_bg@2x.png in Resources */,
 				E800315B19D2F37E00BBFA43 /* top_bar_new@2x.png in Resources */,
@@ -5506,6 +5519,7 @@
 				CE6D122617E739A500881740 /* PHOTO ALBUMS1.png in Resources */,
 				CE5AC44E1B53E86C00B46DC5 /* AddmemberViewController.xib in Resources */,
 				CE6D122B17E73E0800881740 /* Plus_button_new.png in Resources */,
+				84C567BD1B68CBCD00989983 /* LEAGUE_CLUB.png in Resources */,
 				CE6D122C17E73E0800881740 /* back_new.png in Resources */,
 				E864891D18FD548B00DA933F /* edit_icon.png in Resources */,
 				CE01800219FFBF48003790FC /* eventtabsel_ipad@2x.png in Resources */,
@@ -5640,6 +5654,7 @@
 				CEA862641803E25D009B46A3 /* right mark.png in Resources */,
 				E8AF66521966ED5E0002CE61 /* sport_tennis.png in Resources */,
 				E86D0A0D18E9999500109123 /* dropdowncyan@2x.png in Resources */,
+				84C567BB1B68CBCD00989983 /* BUY_SELL.png in Resources */,
 				E857CC461901085F006BCAFC /* declinefrinv@2x.png in Resources */,
 				CE7B03BE18041762009AB4DF /* button Images 2.png in Resources */,
 				CE7B03BF18041762009AB4DF /* button Images 3 .PNG in Resources */,
@@ -5800,7 +5815,6 @@
 				CEE043FA1844F48400C61FAF /* InviteViewController.xib in Resources */,
 				CEE043FC1844F48400C61FAF /* InvitePlayerListCell.xib in Resources */,
 				CEE043FE1844F48400C61FAF /* InvitePlayerListViewController.xib in Resources */,
-				E8AF66671966F78B0002CE61 /* Football:Scoccer.png in Resources */,
 				CEE044061844F4C700C61FAF /* RightVCTableCell.xib in Resources */,
 				CEE044081844F4C700C61FAF /* RosterCell.xib in Resources */,
 				CE01800919FFBF48003790FC /* timelinetab_ipad@2x.png in Resources */,
@@ -5824,6 +5838,7 @@
 				CE5225D21AAAC71000D09CFF /* accept_invite@2x.png in Resources */,
 				E86D0A3318E9999500109123 /* wallleftslide.png in Resources */,
 				E8C33B3B18F94E79000ED9FD /* notcomment.png in Resources */,
+				84C567BC1B68CBCD00989983 /* BUY_SELL@2x.png in Resources */,
 				CE6CBA4118462A2000FBD086 /* transparent box.png in Resources */,
 				CE6CBA461846376E00FBD086 /* EventPlayerCell.xib in Resources */,
 				E851AE8D18EE940B009004B0 /* ff.png in Resources */,
@@ -5840,6 +5855,7 @@
 				CEFD1B6619F63E33008EBD68 /* comment_cyan_ipad@2x.png in Resources */,
 				E84AA86D18F6EF8000AB1B3E /* Help@2x.png in Resources */,
 				E829E57C18EBED40002FE0C4 /* commentwrite.png in Resources */,
+				847C32BF1B6993CB00FC9A70 /* VerificationViewController_iPad.xib in Resources */,
 				E83EC5DB18F2C3A90046A321 /* graytick@2x.png in Resources */,
 				E86D0EF018FC2EDA00FC86CA /* chat_reciver_arrow.png in Resources */,
 				E83EC5CF18F2BACD0046A321 /* openphotolibrary.png in Resources */,
@@ -5859,14 +5875,10 @@
 				CE215843184DD8D900CDBF7C /* my contact icon.png in Resources */,
 				CE215844184DD8D900CDBF7C /* my sedule icon.png in Resources */,
 				E8AF660C1966D7790002CE61 /* Tutorila1ViewController.xib in Resources */,
-				CE59497D184F247C0058F368 /* BUY:SELL@2x.png in Resources */,
 				CE2B4C5E1A0208DD005822F6 /* PlayerListCell_iPad.xib in Resources */,
 				CE7996F71AC29E7E0002DCFB /* sport_chess.png in Resources */,
 				CE8E9C0A1B344F090049B1B2 /* group_chat@2x.png in Resources */,
-				CE59497E184F247C0058F368 /* BUY:SELL.png in Resources */,
-				CE59497F184F247C0058F368 /* LEAGUE:CLUB@2x.png in Resources */,
 				CE4EC3351A8E0F9F00E171BC /* frndinviteplus_ipad@2x.png in Resources */,
-				CE594980184F247C0058F368 /* LEAGUE:CLUB.png in Resources */,
 				CE594983184F3CAC0058F368 /* sign in btnorange.PNG in Resources */,
 				CE62254B1AE4C84600F48B6D /* maybe_image_invite_ipad@2x.png in Resources */,
 				CE2A462C19F13CD000A21607 /* ForgotPasswordViewController_iPad.xib in Resources */,
@@ -5924,6 +5936,7 @@
 				E83EC5C118F2B43C0046A321 /* cross@2x.png in Resources */,
 				CE87B3431A30678F00023CF7 /* noposttimeline_ipad@2x.png in Resources */,
 				CE383D901859FAAC005788E6 /* ShowVideoViewController.xib in Resources */,
+				847C32C11B6993CB00FC9A70 /* VerificationViewController.xib in Resources */,
 				CE383D921859FAAC005788E6 /* SportViewController.xib in Resources */,
 				CE383D941859FAAC005788E6 /* VideoCell.xib in Resources */,
 				CECA9DB2185A0F1C0044A49A /* red-tickselect.png in Resources */,
@@ -6288,6 +6301,7 @@
 				CE4C63F11858A40E00CA9DA8 /* PhotoListVCTableCell.m in Sources */,
 				CE4C63F71858A44700CA9DA8 /* PhotoListVC.m in Sources */,
 				CE4C63FE1858A48400CA9DA8 /* PhotoMainVCTableCell.m in Sources */,
+				847C32C01B6993CB00FC9A70 /* VerificationViewController.m in Sources */,
 				CE4C64031858A4AF00CA9DA8 /* PhotoMainVC.m in Sources */,
 				E8C33B4D18F9586C000ED9FD /* TeamAdminVCViewController.m in Sources */,
 				CEF1564E19DA846500500785 /* SignUpViewController.m in Sources */,
@@ -6469,12 +6483,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Johny Norestin (3P777XE6BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johny Norestin (3P777XE6BW)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social/Wall-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/user/Desktop/tapkulibrary/src/;
+				HEADER_SEARCH_PATHS = "/Volumes/MacData/Works/iOS/Sportsly-Developer-2-master/Sportsly-Developer-2/tapkulibrary/src/";
 				INFOPLIST_FILE = "Social/Wall-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -6487,8 +6501,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = Wall;
-				PROVISIONING_PROFILE = "fcf35684-d07b-412b-8543-345818e483a0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fcf35684-d07b-412b-8543-345818e483a0";
+				PROVISIONING_PROFILE = "3178f2da-802b-4734-b481-77fc0c89883a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3178f2da-802b-4734-b481-77fc0c89883a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -6504,12 +6518,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Johny Norestin (3P777XE6BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johny Norestin (3P777XE6BW)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social/Wall-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/user/Desktop/tapkulibrary/src/;
+				HEADER_SEARCH_PATHS = "/Volumes/MacData/Works/iOS/Sportsly-Developer-2-master/Sportsly-Developer-2/tapkulibrary/src/";
 				INFOPLIST_FILE = "Social/Wall-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -6522,8 +6536,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = Wall;
-				PROVISIONING_PROFILE = "fcf35684-d07b-412b-8543-345818e483a0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fcf35684-d07b-412b-8543-345818e483a0";
+				PROVISIONING_PROFILE = "3178f2da-802b-4734-b481-77fc0c89883a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3178f2da-802b-4734-b481-77fc0c89883a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -6570,12 +6584,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Johny Norestin (3P777XE6BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johny Norestin (3P777XE6BW)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social/Wall-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/user/Desktop/tapkulibrary/src/;
+				HEADER_SEARCH_PATHS = "/Volumes/MacData/Works/iOS/Sportsly-Developer-2-master/Sportsly-Developer-2/tapkulibrary/src/";
 				INFOPLIST_FILE = "Social/Wall-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -6588,8 +6602,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = Wall;
-				PROVISIONING_PROFILE = "fcf35684-d07b-412b-8543-345818e483a0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fcf35684-d07b-412b-8543-345818e483a0";
+				PROVISIONING_PROFILE = "3178f2da-802b-4734-b481-77fc0c89883a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3178f2da-802b-4734-b481-77fc0c89883a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -6636,12 +6650,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amish Kapadia (HWD6BSFWR9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Johny Norestin (3P777XE6BW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Johny Norestin (3P777XE6BW)";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Social/Wall-Prefix.pch";
-				HEADER_SEARCH_PATHS = /Users/user/Desktop/tapkulibrary/src/;
+				HEADER_SEARCH_PATHS = "/Volumes/MacData/Works/iOS/Sportsly-Developer-2-master/Sportsly-Developer-2/tapkulibrary/src/";
 				INFOPLIST_FILE = "Social/Wall-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -6654,8 +6668,8 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = Wall;
-				PROVISIONING_PROFILE = "fcf35684-d07b-412b-8543-345818e483a0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fcf35684-d07b-412b-8543-345818e483a0";
+				PROVISIONING_PROFILE = "3178f2da-802b-4734-b481-77fc0c89883a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3178f2da-802b-4734-b481-77fc0c89883a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 arm64 armv7s";
 				WRAPPER_EXTENSION = app;

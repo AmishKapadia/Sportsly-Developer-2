@@ -13,6 +13,7 @@
 #import "CenterViewController.h"
 #import "SignUpViewController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "VerificationViewController.h"
 
 @interface SignUpViewController ()
 
@@ -237,6 +238,14 @@
        self.crossbT.hidden=YES;
 }
 
+- (IBAction)sendVerificationEmail:(id)sender
+{
+    VerificationViewController *fp=[[VerificationViewController alloc] initWithNibName:@"VerificationViewController" bundle:nil];
+    
+    
+    [self.navigationController pushViewController:fp animated:YES];
+}
+
 - (IBAction)signUpBtn:(id)sender
 {
     if([self.firstName isFirstResponder])
@@ -396,7 +405,7 @@
     NSLog(@"RequestParamJSON=%@",jsonCommand);
     
     if(isSelectedImage==1)
-    [appDelegate sendRequestFor:SIGNUP from:self parameter:[NSDictionary dictionaryWithObjectsAndKeys:jsonCommand,@"requestParam",UIImageJPEGRepresentation(self.avatarimavw.image,0.1),@"ProfileImage", nil]];
+        [appDelegate sendRequestFor:SIGNUP from:self parameter:[NSDictionary dictionaryWithObjectsAndKeys:jsonCommand,@"requestParam",UIImageJPEGRepresentation(self.avatarimavw.image,0.1),@"ProfileImage", nil]];
     else
         [appDelegate sendRequestFor:SIGNUP from:self parameter:[NSDictionary dictionaryWithObjectsAndKeys:jsonCommand,@"requestParam", nil]];
 }
@@ -1294,7 +1303,14 @@
     
 }
 
-
+- (IBAction)viewTapped:(id)sender
+{
+    [self.firstName resignFirstResponder];
+    [self.lastName resignFirstResponder];
+    [self.emailTxt resignFirstResponder];
+    [self.passwrdTxt resignFirstResponder];
+    [self.retypePassword resignFirstResponder];
+}
 
 
 @end
